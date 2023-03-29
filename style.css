@@ -1,0 +1,55 @@
+.removed {
+    text-decoration: line-through;
+}
+
+.container-md{
+    overflow-y: scroll;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(33,36,40)
+}
+
+.row{
+    height: 100%;
+}
+
+.listcont{
+    height: 100%;
+    border-radius: 25px;
+    padding: 2rem;
+    background-color: rgb(30,32,36);
+    box-shadow: 3px 5px 14px 7px #1d2024;
+    transition: box-shadow 2s;
+}
+
+.listcont:hover{
+    box-shadow: inset -40px -41px 14px 26px #1d2024;
+}
+
+.container-fluid{
+    height: 80vh!important;
+}
+
+.t-color{
+    color: rgb(196,207,222)!important;
+}
+
+ul{
+    list-style-type: none
+}
+
+ul li{
+    color: rgb(196,207,222)!important;
+}
+
+ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
